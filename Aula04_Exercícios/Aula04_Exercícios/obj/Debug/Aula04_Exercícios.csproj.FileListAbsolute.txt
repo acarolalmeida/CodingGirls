@@ -1,0 +1,8 @@
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Aula04_Exercícios\Aula04_Exercícios\bin\Debug\Aula04_Exercícios.exe.config
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Aula04_Exercícios\Aula04_Exercícios\bin\Debug\Aula04_Exercícios.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Aula04_Exercícios\Aula04_Exercícios\bin\Debug\Aula04_Exercícios.pdb
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Aula04_Exercícios\Aula04_Exercícios\obj\Debug\Aula04_Exercícios.csproj.AssemblyReference.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Aula04_Exercícios\Aula04_Exercícios\obj\Debug\Aula04_Exercícios.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Aula04_Exercícios\Aula04_Exercícios\obj\Debug\Aula04_Exercícios.csproj.CoreCompileInputs.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Aula04_Exercícios\Aula04_Exercícios\obj\Debug\Aula04_Exercícios.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Aula04_Exercícios\Aula04_Exercícios\obj\Debug\Aula04_Exercícios.pdb
