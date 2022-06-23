@@ -1,0 +1,8 @@
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Revisao_POO\obj\Debug\Revisao_POO.csproj.AssemblyReference.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Revisao_POO\obj\Debug\Revisao_POO.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Revisao_POO\obj\Debug\Revisao_POO.csproj.CoreCompileInputs.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Revisao_POO\bin\Debug\Revisao_POO.exe.config
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Revisao_POO\bin\Debug\Revisao_POO.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Revisao_POO\bin\Debug\Revisao_POO.pdb
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Revisao_POO\obj\Debug\Revisao_POO.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Revisao_POO\obj\Debug\Revisao_POO.pdb

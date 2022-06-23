@@ -1,0 +1,16 @@
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio - Tratamento de Erro\obj\Debug\Desafio - Tratamento de Erro.csproj.AssemblyReference.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio - Tratamento de Erro\obj\Debug\Desafio - Tratamento de Erro.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio - Tratamento de Erro\obj\Debug\Desafio - Tratamento de Erro.csproj.CoreCompileInputs.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio - Tratamento de Erro\bin\Debug\Desafio - Tratamento de Erro.exe.config
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio - Tratamento de Erro\bin\Debug\Desafio - Tratamento de Erro.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio - Tratamento de Erro\bin\Debug\Desafio - Tratamento de Erro.pdb
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio - Tratamento de Erro\obj\Debug\Desafio - Tratamento de Erro.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio - Tratamento de Erro\obj\Debug\Desafio - Tratamento de Erro.pdb
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - AULAS\Desafio - Tratamento de Erro\bin\Debug\Desafio - Tratamento de Erro.exe.config
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - AULAS\Desafio - Tratamento de Erro\bin\Debug\Desafio - Tratamento de Erro.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - AULAS\Desafio - Tratamento de Erro\bin\Debug\Desafio - Tratamento de Erro.pdb
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - AULAS\Desafio - Tratamento de Erro\obj\Debug\Desafio - Tratamento de Erro.csproj.AssemblyReference.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - AULAS\Desafio - Tratamento de Erro\obj\Debug\Desafio - Tratamento de Erro.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - AULAS\Desafio - Tratamento de Erro\obj\Debug\Desafio - Tratamento de Erro.csproj.CoreCompileInputs.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - AULAS\Desafio - Tratamento de Erro\obj\Debug\Desafio - Tratamento de Erro.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - AULAS\Desafio - Tratamento de Erro\obj\Debug\Desafio - Tratamento de Erro.pdb

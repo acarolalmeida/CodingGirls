@@ -1,0 +1,8 @@
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - EXERCÍCIOS\Aula06_Exercícios\Exercício02\bin\Debug\Exercício02.exe.config
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - EXERCÍCIOS\Aula06_Exercícios\Exercício02\bin\Debug\Exercício02.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - EXERCÍCIOS\Aula06_Exercícios\Exercício02\bin\Debug\Exercício02.pdb
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - EXERCÍCIOS\Aula06_Exercícios\Exercício02\obj\Debug\Exercício02.csproj.AssemblyReference.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - EXERCÍCIOS\Aula06_Exercícios\Exercício02\obj\Debug\Exercício02.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - EXERCÍCIOS\Aula06_Exercícios\Exercício02\obj\Debug\Exercício02.csproj.CoreCompileInputs.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - EXERCÍCIOS\Aula06_Exercícios\Exercício02\obj\Debug\Exercício02.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\SEMANA 02 - EXERCÍCIOS\Aula06_Exercícios\Exercício02\obj\Debug\Exercício02.pdb

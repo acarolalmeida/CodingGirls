@@ -1,0 +1,8 @@
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio\bin\Debug\Desafio.exe.config
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio\bin\Debug\Desafio.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio\bin\Debug\Desafio.pdb
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio\obj\Debug\Desafio.csproj.AssemblyReference.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio\obj\Debug\Desafio.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio\obj\Debug\Desafio.csproj.CoreCompileInputs.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio\obj\Debug\Desafio.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Desafio\obj\Debug\Desafio.pdb

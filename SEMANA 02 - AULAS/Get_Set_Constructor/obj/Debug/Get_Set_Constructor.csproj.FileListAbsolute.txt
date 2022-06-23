@@ -1,0 +1,8 @@
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Get_Set_Constructor\bin\Debug\Get_Set_Constructor.exe.config
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Get_Set_Constructor\bin\Debug\Get_Set_Constructor.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Get_Set_Constructor\bin\Debug\Get_Set_Constructor.pdb
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Get_Set_Constructor\obj\Debug\Get_Set_Constructor.csproj.AssemblyReference.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Get_Set_Constructor\obj\Debug\Get_Set_Constructor.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Get_Set_Constructor\obj\Debug\Get_Set_Constructor.csproj.CoreCompileInputs.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Get_Set_Constructor\obj\Debug\Get_Set_Constructor.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\Get_Set_Constructor\obj\Debug\Get_Set_Constructor.pdb

@@ -1,0 +1,8 @@
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\TratamentoDeErros\obj\Debug\TratamentoDeErros.csproj.AssemblyReference.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\TratamentoDeErros\obj\Debug\TratamentoDeErros.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\TratamentoDeErros\obj\Debug\TratamentoDeErros.csproj.CoreCompileInputs.cache
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\TratamentoDeErros\bin\Debug\TratamentoDeErros.exe.config
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\TratamentoDeErros\bin\Debug\TratamentoDeErros.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\TratamentoDeErros\bin\Debug\TratamentoDeErros.pdb
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\TratamentoDeErros\obj\Debug\TratamentoDeErros.exe
+C:\Users\Carol Almeida\Documents\GitHub\CodingGirls\TratamentoDeErros\obj\Debug\TratamentoDeErros.pdb
