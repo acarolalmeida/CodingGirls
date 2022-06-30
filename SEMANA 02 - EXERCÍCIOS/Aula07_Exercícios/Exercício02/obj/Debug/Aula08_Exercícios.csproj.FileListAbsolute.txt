@@ -1,0 +1,8 @@
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\SEMANA02_EXERCÍCIOS\Aula08_Exercícios\obj\Debug\Aula08_Exercícios.csproj.AssemblyReference.cache
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\SEMANA02_EXERCÍCIOS\Aula08_Exercícios\obj\Debug\Aula08_Exercícios.csproj.SuggestedBindingRedirects.cache
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\SEMANA02_EXERCÍCIOS\Aula08_Exercícios\obj\Debug\Aula08_Exercícios.csproj.CoreCompileInputs.cache
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\SEMANA02_EXERCÍCIOS\Aula08_Exercícios\bin\Debug\Aula08_Exercícios.exe.config
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\SEMANA02_EXERCÍCIOS\Aula08_Exercícios\bin\Debug\Aula08_Exercícios.exe
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\SEMANA02_EXERCÍCIOS\Aula08_Exercícios\bin\Debug\Aula08_Exercícios.pdb
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\SEMANA02_EXERCÍCIOS\Aula08_Exercícios\obj\Debug\Aula08_Exercícios.exe
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\SEMANA02_EXERCÍCIOS\Aula08_Exercícios\obj\Debug\Aula08_Exercícios.pdb

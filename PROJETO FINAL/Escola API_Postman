@@ -1,0 +1,272 @@
+{
+	"info": {
+		"_postman_id": "490ed80c-878e-4ad0-8602-da5fe38518a6",
+		"name": "Escola",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21695066"
+	},
+	"item": [
+		{
+			"name": "Aluno",
+			"item": [
+				{
+					"name": "Consulta Alunos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7206/api/escola/Aluno",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7206",
+							"path": [
+								"api",
+								"escola",
+								"Aluno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastrar Aluno",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Ana Carolina Duque de Almeida\",\r\n  \"dataNascimento\": \"1995-09-30T02:30:02.301Z\",\r\n  \"sexo\": \"F\",\r\n  \"turmaId\": 1234,\r\n  \"totalFaltas\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7206/api/escola/Aluno",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7206",
+							"path": [
+								"api",
+								"escola",
+								"Aluno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consulta Aluno_Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7206/api/escola/Aluno/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7206",
+							"path": [
+								"api",
+								"escola",
+								"Aluno",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza Aluno_Id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"nome\": \"Ana Carolina Duque de Almeida\",\r\n  \"dataNascimento\": \"1995-09-30T02:30:02.301Z\",\r\n  \"sexo\": \"F\",\r\n  \"turmaId\": 1234567,\r\n  \"totalFaltas\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7206/api/escola/Aluno/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7206",
+							"path": [
+								"api",
+								"escola",
+								"Aluno",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Exclui Aluno_Id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7206/api/escola/Aluno/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7206",
+							"path": [
+								"api",
+								"escola",
+								"Aluno",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Turma",
+			"item": [
+				{
+					"name": "Consulta Turmas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7206/api/escola/Turma",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7206",
+							"path": [
+								"api",
+								"escola",
+								"Turma"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastrar Turma",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Turma 01\",\r\n  \"ativo\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7206/api/escola/Turma",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7206",
+							"path": [
+								"api",
+								"escola",
+								"Turma"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consulta Turma_Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7206/api/escola/Turma/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7206",
+							"path": [
+								"api",
+								"escola",
+								"Turma",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza Turma_Id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"nome\": \"Turma 01A\",\r\n    \"ativo\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7206/api/escola/Turma/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7206",
+							"path": [
+								"api",
+								"escola",
+								"Turma",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Exclui Turma_Id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7206/api/escola/Turma/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7206",
+							"path": [
+								"api",
+								"escola",
+								"Turma",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

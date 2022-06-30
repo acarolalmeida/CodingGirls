@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_Escola", "API_Escola\API_Escola.csproj", "{EC223803-BEFD-4A17-926A-07983404679A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_Escola", "TDD_Escola\TDD_Escola.csproj", "{1BA3E4CF-C246-43AD-87FE-B7F0748C25F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC223803-BEFD-4A17-926A-07983404679A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC223803-BEFD-4A17-926A-07983404679A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC223803-BEFD-4A17-926A-07983404679A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC223803-BEFD-4A17-926A-07983404679A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA3E4CF-C246-43AD-87FE-B7F0748C25F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA3E4CF-C246-43AD-87FE-B7F0748C25F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA3E4CF-C246-43AD-87FE-B7F0748C25F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA3E4CF-C246-43AD-87FE-B7F0748C25F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB293115-E5E2-4184-AF49-75F1895602C4}
+	EndGlobalSection
+EndGlobal

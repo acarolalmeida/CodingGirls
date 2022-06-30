@@ -1,0 +1,8 @@
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\Aula08_Exercícios\Exercício03\bin\Debug\Exercício03.exe.config
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\Aula08_Exercícios\Exercício03\bin\Debug\Exercício03.exe
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\Aula08_Exercícios\Exercício03\bin\Debug\Exercício03.pdb
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\Aula08_Exercícios\Exercício03\obj\Debug\Exercício03.csproj.AssemblyReference.cache
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\Aula08_Exercícios\Exercício03\obj\Debug\Exercício03.csproj.SuggestedBindingRedirects.cache
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\Aula08_Exercícios\Exercício03\obj\Debug\Exercício03.csproj.CoreCompileInputs.cache
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\Aula08_Exercícios\Exercício03\obj\Debug\Exercício03.exe
+C:\Users\ana.c.d.almeida\Documents\Visual Studio 2022\Aula08_Exercícios\Exercício03\obj\Debug\Exercício03.pdb
