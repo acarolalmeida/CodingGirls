@@ -13,6 +13,8 @@ namespace API_Escola.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Aluno>().ToTable("Aluno");
+            modelBuilder.Entity<Aluno>().HasOne(e => e.Turma).WithMany(e => e.Alunos).HasForeignKey(e => e.TurmaId);
+
             modelBuilder.Entity<Turma>().ToTable("Turma");
         }
 

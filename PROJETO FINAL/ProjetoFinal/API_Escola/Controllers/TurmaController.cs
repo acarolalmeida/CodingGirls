@@ -21,7 +21,7 @@ namespace API_Escola.Controllers
             _context = context;
         }
 
-        // GET: api/Turma
+        // GET: api/escola/Turma
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Turma>>> GetTurma()
         {
@@ -32,7 +32,7 @@ namespace API_Escola.Controllers
             return await _context.Turma.ToListAsync();
         }
 
-        // GET: api/Turma/5
+        // GET: api/escola/Turma/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Turma>> GetTurma(int id)
         {
@@ -50,7 +50,7 @@ namespace API_Escola.Controllers
             return turma;
         }
 
-        // PUT: api/Turma/5
+        // PUT: api/escola/Turma/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTurma(int id, Turma turma)
@@ -81,7 +81,7 @@ namespace API_Escola.Controllers
             return NoContent();
         }
 
-        // POST: api/Turma
+        // POST: api/escola/Turma
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Turma>> PostTurma(Turma turma)
@@ -96,7 +96,7 @@ namespace API_Escola.Controllers
             return CreatedAtAction("GetTurma", new { id = turma.Id }, turma);
         }
 
-        // DELETE: api/Turma/5
+        // DELETE: api/escola/Turma/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTurma(int id)
         {

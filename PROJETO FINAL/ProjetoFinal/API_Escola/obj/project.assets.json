@@ -981,6 +981,19 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Proxies/6.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "4.4.1",
+          "Microsoft.EntityFrameworkCore": "6.0.6"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Proxies.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Proxies.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/6.0.6": {
         "type": "package",
         "dependencies": {
@@ -4314,6 +4327,20 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.xml",
         "microsoft.entityframeworkcore.inmemory.6.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.inmemory.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Proxies/6.0.6": {
+      "sha512": "0yAPcGIiO2Wy2M208W8bzHDe5EdKPDfORor1SLMksXpl++HaLM9E2tYm+A87BFAwIWN87IHNXvllamtIlgQR6A==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.proxies/6.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Proxies.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Proxies.xml",
+        "microsoft.entityframeworkcore.proxies.6.0.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.proxies.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.6": {
@@ -9804,6 +9831,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.InMemory >= 6.0.5",
+      "Microsoft.EntityFrameworkCore.Proxies >= 6.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.6",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.6",
@@ -9818,11 +9846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carol Almeida\\Documents\\GitHub\\CodingGirls\\ProjetoFinal\\API_Escola\\API_Escola.csproj",
+      "projectUniqueName": "C:\\Users\\Carol Almeida\\Documents\\GitHub\\CodingGirls\\PROJETO FINAL\\ProjetoFinal\\API_Escola\\API_Escola.csproj",
       "projectName": "API_Escola",
-      "projectPath": "C:\\Users\\Carol Almeida\\Documents\\GitHub\\CodingGirls\\ProjetoFinal\\API_Escola\\API_Escola.csproj",
+      "projectPath": "C:\\Users\\Carol Almeida\\Documents\\GitHub\\CodingGirls\\PROJETO FINAL\\ProjetoFinal\\API_Escola\\API_Escola.csproj",
       "packagesPath": "C:\\Users\\Carol Almeida\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carol Almeida\\Documents\\GitHub\\CodingGirls\\ProjetoFinal\\API_Escola\\obj\\",
+      "outputPath": "C:\\Users\\Carol Almeida\\Documents\\GitHub\\CodingGirls\\PROJETO FINAL\\ProjetoFinal\\API_Escola\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9858,6 +9886,10 @@
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[6.0.5, )"
+          },
+          "Microsoft.EntityFrameworkCore.Proxies": {
+            "target": "Package",
+            "version": "[6.0.6, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",

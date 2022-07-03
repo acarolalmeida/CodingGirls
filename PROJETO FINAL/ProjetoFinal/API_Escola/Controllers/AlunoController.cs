@@ -21,7 +21,7 @@ namespace API_Escola.Controllers
             _context = context;
         }
 
-        // GET: api/Aluno
+        // GET: api/escola/Aluno
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Aluno>>> GetAluno()
         {
@@ -32,7 +32,7 @@ namespace API_Escola.Controllers
             return await _context.Aluno.ToListAsync();
         }
 
-        // GET: api/Aluno/5
+        // GET: api/escola/Aluno/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Aluno>> GetAluno(int id)
         {
@@ -50,7 +50,7 @@ namespace API_Escola.Controllers
             return aluno;
         }
 
-        // PUT: api/Aluno/5
+        // PUT: api/escola/Aluno/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAluno(int id, Aluno aluno)
@@ -81,7 +81,7 @@ namespace API_Escola.Controllers
             return NoContent();
         }
 
-        // POST: api/Aluno
+        // POST: api/escola/Aluno
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Aluno>> PostAluno(Aluno aluno)
@@ -96,7 +96,7 @@ namespace API_Escola.Controllers
             return CreatedAtAction("GetAluno", new { id = aluno.Id }, aluno);
         }
 
-        // DELETE: api/Aluno/5
+        // DELETE: api/escola/Aluno/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAluno(int id)
         {
