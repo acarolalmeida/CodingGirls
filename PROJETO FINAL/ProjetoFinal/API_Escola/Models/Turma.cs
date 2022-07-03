@@ -9,6 +9,11 @@ namespace API_Escola.Models
         public bool? Ativo { get; set; }
 
         // NAVIGATION PROPERTIES
-       [JsonIgnore] public virtual List<Aluno>? Alunos { get; set; }
+       [JsonIgnore] public virtual List<Aluno>? Alunos { internal get; set; }
+
+        public static explicit operator Turma(ValueTask<Turma?> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

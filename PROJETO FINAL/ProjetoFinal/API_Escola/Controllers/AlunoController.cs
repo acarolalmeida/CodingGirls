@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using API_Escola.Context;
 using API_Escola.Models;
@@ -25,21 +20,40 @@ namespace API_Escola.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Aluno>>> GetAluno()
         {
-          if (_context.Aluno == null)
-          {
-              return NotFound();
-          }
-            return await _context.Aluno.ToListAsync();
+            List<Aluno> alunosCadastrados = _context.Aluno.ToList();
+            List<Turma> turmasCadastradas = _context.Turma.ToList();
+
+            if (_context.Aluno == null)
+           {
+                return NotFound();
+           }
+                       
+           List<Aluno> alunosAtivos = new List<Aluno>();
+           
+           foreach (Aluno alunoCadastrado in alunosCadastrados)
+           {
+                Turma? turmaDoAluno = turmasCadastradas.Find(x => x.Id == alunoCadastrado.TurmaId);
+               
+                if (turmaDoAluno.Ativo == true)
+                {
+                    alunosAtivos.Add(alunoCadastrado);
+                }
+            }
+
+            return alunosAtivos;
         }
 
         // GET: api/escola/Aluno/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Aluno>> GetAluno(int id)
         {
-          if (_context.Aluno == null)
-          {
+            List<Turma> turmasCadastradas = _context.Turma.ToList();
+
+            if (_context.Aluno == null)
+            {
               return NotFound();
-          }
+            }
+
             var aluno = await _context.Aluno.FindAsync(id);
 
             if (aluno == null)
@@ -47,14 +61,26 @@ namespace API_Escola.Controllers
                 return NotFound();
             }
 
-            return aluno;
+            Turma? turmaDoAluno = turmasCadastradas.Find(x => x.Id == aluno.TurmaId);
+
+            if (turmaDoAluno.Ativo == true)
+            {
+                return aluno;
+            }
+
+            else 
+            {
+                return NotFound();
+            }
         }
 
         // PUT: api/escola/Aluno/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutAluno(int id, Aluno aluno)
+        public async Task<ActionResult<Turma>> PutAluno(int id, Aluno aluno)
         {
+            List<Turma> turmasCadastradas = _context.Turma.ToList();
+
             if (id != aluno.Id)
             {
                 return BadRequest();
@@ -62,22 +88,32 @@ namespace API_Escola.Controllers
 
             _context.Entry(aluno).State = EntityState.Modified;
 
-            try
+            Turma? turmaDoAluno = turmasCadastradas.Find(x => x.Id == aluno.TurmaId);
+            
+            if (turmaDoAluno.Ativo == false)
             {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!AlunoExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return BadRequest();
             }
 
+            else 
+            {
+                try
+                {
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!AlunoExists(id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+            }
+            
             return NoContent();
         }
 
@@ -86,10 +122,10 @@ namespace API_Escola.Controllers
         [HttpPost]
         public async Task<ActionResult<Aluno>> PostAluno(Aluno aluno)
         {
-          if (_context.Aluno == null)
-          {
-              return Problem("Entity set 'API_EscolaContext.Aluno'  is null.");
-          }
+            if (_context.Aluno == null)
+            {
+                return Problem("Entity set 'API_EscolaContext.Aluno'  is null.");
+            }
             _context.Aluno.Add(aluno);
             await _context.SaveChangesAsync();
 

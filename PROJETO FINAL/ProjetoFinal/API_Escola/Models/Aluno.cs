@@ -12,6 +12,6 @@ namespace API_Escola.Models
         public int? TotalFaltas { get; set; }
 
         // NAVIGATION PROPERTIES
-        [JsonIgnore] public virtual Turma? Turma { get; set; }
+        [JsonIgnore] public virtual Turma? Turma { internal get; set; }
     }
 }

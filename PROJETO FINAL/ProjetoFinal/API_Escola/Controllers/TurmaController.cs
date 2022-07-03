@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using API_Escola.Context;
 using API_Escola.Models;
@@ -25,21 +20,35 @@ namespace API_Escola.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Turma>>> GetTurma()
         {
-          if (_context.Turma == null)
-          {
+            List<Turma> turmasCadastradas = _context.Turma.ToList();
+
+            if (_context.Turma == null)
+            {
               return NotFound();
-          }
-            return await _context.Turma.ToListAsync();
+            }
+
+            List<Turma> turmasAtivas = new List<Turma>();
+
+            foreach (Turma turmaCadastrada in turmasCadastradas)
+            {
+                if (turmaCadastrada.Ativo == true)
+                {
+                    turmasAtivas.Add(turmaCadastrada);
+                }
+            }
+
+            return turmasAtivas;
         }
 
         // GET: api/escola/Turma/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Turma>> GetTurma(int id)
         {
-          if (_context.Turma == null)
-          {
+            if (_context.Turma == null)
+            {
               return NotFound();
-          }
+            }
+
             var turma = await _context.Turma.FindAsync(id);
 
             if (turma == null)
@@ -47,7 +56,15 @@ namespace API_Escola.Controllers
                 return NotFound();
             }
 
-            return turma;
+            if (turma.Ativo == true)
+            {
+                return turma;
+            }
+
+            else
+            {
+                return NotFound();
+            }
         }
 
         // PUT: api/escola/Turma/5
